@@ -3,7 +3,7 @@ import replicate
 import os
 
 # App title
-st.set_page_config(page_title="🦙💬 Llama 2 Chatbot Capgemini POC")
+st.set_page_config(page_title="🦙💬 Capgemini POC")
 
 # Replicate Credentials
 with st.sidebar:
