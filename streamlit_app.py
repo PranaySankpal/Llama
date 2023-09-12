@@ -7,7 +7,7 @@ st.set_page_config(page_title="🦙💬 Capgemini POC")
 
 # Replicate Credentials
 with st.sidebar:
-    st.title('🦙💬 Llama Capgemini POC')
+    st.title('🦙💬 Capgemini CMA ChatGPT')
     if 'REPLICATE_API_TOKEN' in st.secrets:
         st.success('API key already provided!', icon='✅')
         replicate_api = st.secrets['REPLICATE_API_TOKEN']
